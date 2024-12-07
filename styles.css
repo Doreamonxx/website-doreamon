@@ -28,3 +28,33 @@ h1{
       }
       
 }
+
+.container-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: large;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: .5s;
+    background-color: #faf9f6;
+    color: #FFF5EE;
+}
+
+button:hover{
+    background-color: #272757;
+    color: #FFF5EE;
+}
+
+button:active{
+    background-color: #171733;
+    box-shadow:0 5px #F0EAD6;
+    transform: translateY(4px);
+}
