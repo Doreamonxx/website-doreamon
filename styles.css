@@ -8,6 +8,7 @@ header{
     align-items: center;
     justify-content: center;
     font-size: 55px;
+    font-family: "Gruppo",sans-serif;
 
 }
 
@@ -18,15 +19,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-h1{
-    .gruppo-regular {
-        font-family: "Gruppo", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
 }
 
 .container-navigation{
@@ -49,7 +41,7 @@ button{
 }
 
 button:hover{
-    background-color: #272757;
+    background-color: #FFF8DC;
     color: #FFF5EE;
 }
 
@@ -67,8 +59,8 @@ img{
 }
 
 .content {
-    display: flex; /* Use flexbox */
-    align-items: center; /* Vertically align items in the center */
+    display: flex;
+    align-items: center;
 }
 
 .content img { 
@@ -78,7 +70,7 @@ img{
 }
 
 .text {
-    max-width: 500px; /* Optional: limit the text width */
+    max-width: 500px;
 }
 
 .shadow-image {
@@ -88,7 +80,7 @@ img{
 }
 
 .shadow-image:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7); /* Adds shadow on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
 }
 
 
