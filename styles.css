@@ -58,3 +58,37 @@ button:active{
     box-shadow:0 5px #F0EAD6;
     transform: translateY(4px);
 }
+
+img{
+    height: auto;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Vertically align items in the center */
+}
+
+.content img { 
+    margin-right: 20px; 
+    width: 400px;
+    height: auto;
+}
+
+.text {
+    max-width: 500px; /* Optional: limit the text width */
+}
+
+.shadow-image {
+    transition: box-shadow 0.3s ease;
+    display: block;
+    border-radius: 8px;
+}
+
+.shadow-image:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7); /* Adds shadow on hover */
+}
+
+
