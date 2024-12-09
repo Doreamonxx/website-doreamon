@@ -21,6 +21,46 @@ header{
     justify-content: center;
 }
 
+.section-two{
+    background-color: #1D334A;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-three{
+    background-color: #fffff0;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-four{
+    background-color: #1D334A;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-five{
+    background-color: #fffff0;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-six{
+    background-color: #1D334A;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container-navigation{
     display: flex;
     flex-wrap: wrap;
