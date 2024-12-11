@@ -31,7 +31,7 @@ header{
 
 .section-three {
     background-color: #fffff0;
-    height: 700px;
+    height: 900px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,7 +150,7 @@ img{
     display: flex;
     flex-wrap: wrap; /* Allow images to wrap */
     justify-content: center; /* Center the images */
-    gap: 10px; /* Add some space between images */
+    gap: 20px; /* Add some space between images */
     width: 80%;
     text-align: center;
 }
@@ -160,4 +160,27 @@ img{
     height: auto;
     border-radius: 5px; /* Optional: To round the corners of the images */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Optional: Add shadow to images */
+
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+    margin: 10px;
+}
+
+.image-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.image-container p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
 }
