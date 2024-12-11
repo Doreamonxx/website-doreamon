@@ -29,12 +29,13 @@ header{
     justify-content: center;
 }
 
-.section-three{
+.section-three {
     background-color: #fffff0;
     height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .section-four{
@@ -129,4 +130,34 @@ img{
     flex-wrap: wrap;
 }
 
+.word-container {
+    display: flex;
+    justify-content: center;  /* This centers the images horizontally */
+    align-items: center;      /* This centers the images vertically */
+    margin: 200px auto 20px auto;
+    width: 80%;
+    text-align: center;
+    flex-wrap: wrap;
+}
 
+.word{
+    width: 23%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap */
+    justify-content: center; /* Center the images */
+    gap: 10px; /* Add some space between images */
+    width: 80%;
+    text-align: center;
+}
+
+.image-row img {
+    width: calc(25% - 10px); /* Make each image take up 25% of the container's width minus some space */
+    height: auto;
+    border-radius: 5px; /* Optional: To round the corners of the images */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Optional: Add shadow to images */
+}
