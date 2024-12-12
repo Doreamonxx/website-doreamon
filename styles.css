@@ -23,19 +23,74 @@ header{
 
 .section-two{
     background-color: #1D334A;
-    height: 700px;
+    height: auto;
+    padding: 20px;
+}
+
+.section-two .image-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.section-two .image-container img {
+    width: 22%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0,3s ease;
+}
+
+.section-two .image-container img:hover {
+    transform: scale(1.05);
+}
+
+.section-two .image-container .text-box {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #FFF;
 }
 
 .section-three {
     background-color: #fffff0;
-    height: 900px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 20px;
+}
+
+.section-three .image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+.section-three .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3 ease;
+}
+
+.section-three .image-container img:hover {
+transform: scale(1.05);
+}
+
+.section-three h2 {
+    color: #1D334A;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .section-four{
@@ -165,11 +220,12 @@ img{
 
 .image-container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 80%;
+    gap: 20px;
     text-align: center;
-    max-width: 200px;
-    margin: 10px;
+   
 }
 
 .image-container img{
@@ -199,4 +255,62 @@ img{
     font-size: 40px;
     color: #1D334A;
     margin-bottom: 20px;
+}
+
+
+.section-two img {
+    width: 22%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.section-two img:hover {
+    transform: scale(1.05);
+
+}
+
+.section-two h2 {
+    color: #F0EAD6;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.poster{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+
+}
+
+.poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.poster img:hover {
+    transform: scale(1.05);
+}
+
+.poster p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #FFF5EE;
+    text-align: center;
+}
+
+.section-three .image-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
