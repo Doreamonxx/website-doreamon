@@ -28,17 +28,17 @@ header{
 }
 
 .section-two .image-container {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    width: 100%;
+    width: 80%;
     gap: 20px;
     text-align: center;
-    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .section-two .image-container img {
-    width: 22%;
+    width: 65%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
@@ -69,13 +69,13 @@ header{
 .section-three .image-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    width: 80%;
+    gap: 40px;
+    width: 100%;
     text-align: center;
 }
 
 .section-three .image-container img {
-    width: 100%;
+    width: 130%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
@@ -282,7 +282,8 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 22%;
+    width: 80%;
+    overflow: visible;
 
 }
 
@@ -295,7 +296,7 @@ img{
 }
 
 .poster img:hover {
-    transform: scale(1.05);
+    transform: scale(2);
 }
 
 .poster p {
