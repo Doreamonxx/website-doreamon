@@ -21,6 +21,11 @@ header{
     justify-content: center;
 }
 
+.section-one h2{
+    color: #1D334A;
+    font-size: 36px;
+}
+
 .section-two{
     background-color: #1D334A;
     height: auto;
@@ -95,12 +100,10 @@ transform: scale(1.05);
 
 .section-four{
     background-color: #1D334A;
-    height: auto;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
     text-align: center;
 }
 
@@ -114,7 +117,7 @@ transform: scale(1.05);
 .section-four h2 {
     color: #F0EAD6;
     font-size: 36px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
 }
 
@@ -127,15 +130,21 @@ transform: scale(1.05);
 .section-four .image-container{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    transform: translateX(8%);
 }
 
 .section-four .image-container img{
-    width: 500px;
+    width: 60%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
+    transform: translateX(8%);
 }
 
 .section-four .image-container img:hover {
@@ -144,10 +153,17 @@ transform: scale(1.05);
 
 .section-five{
     background-color: #fffff0;
-    height: 700px;
+    padding: 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    text-align: center;
+}
+
+.section-five h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #1D334A;
 }
 
 .section-six{
